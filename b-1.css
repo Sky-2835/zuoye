@@ -1,0 +1,178 @@
+body{
+  margin: 0px;
+}
+
+.clearfix::after{
+ content: '';
+ display: block;
+ clear: both;
+}
+
+a{
+ text-decoration: none;
+}
+
+*{
+ padding: 0px; margin: 0px;
+}
+
+.topnavbar >nav >ul >li{
+  float: left;
+  list-style: none;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+ 
+.topnavbar >nav >ul >li>a{
+    color: #b7b7b7;
+    font-size: 12px;
+    font-weight: bold;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    display: block;
+}
+
+.topnavbar >nav >ul >li>a:hover{
+    border-bottom: 3px solid red;
+}
+
+.topnavbar .logo .rs{
+    color: #e6686a; 
+    margin-right: 8px;
+    padding-left: 8px;
+}
+
+.topnavbar .logo .card{
+    color: #9a9da2;
+}
+
+.topnavbar .logo{
+    font-size: 24px;
+    font-family: "Arial Black";
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+}
+
+.topnavbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.topnavbar >nav{
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.topnavbar nav ul{
+    margin: 0px;
+}
+
+.bg{
+   height: 515px;
+   background-position: center center;
+   background-size: cover;
+}
+
+.bg .bgcard{
+    height: 515px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.usercard{
+max-width: 947px; 
+margin-left: auto;
+margin-right: auto;
+background-color:#ffffff;
+border: 1px solid red
+}
+
+.welcome{
+  padding:4px 16px;
+  background-color: #e6686a;
+  color: white;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 10px;
+ 
+
+}
+
+.welcome .son{
+    border: 10px solid transparent;
+    width:0px;
+    height:0px;
+    border-top-color: blue;
+    border-left-color: red;
+    border-top-width: 0px;
+    display: block;
+    position:absolute;
+    top:100%;
+    left:4px
+}
+
+.pictureandtext{
+padding: 50px;
+}
+
+.usercard .text{
+    margin-left: 65px;
+    width: 470px;
+}
+
+dl dt{
+ float: left;
+ width:30%;
+ font-weight: bold;
+ padding: 5px 0px;
+}
+
+ dl dd{
+ float: left;
+ width: 70%;
+ color: #dedede;
+ padding:5px 0px;
+ }
+
+ h1{
+    margin-top: 18px;
+ }
+
+hr{
+ height:0px;
+ border:none;
+ border-top: 1px solid #dedede;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.link{
+background-color:#e6686a;
+text-align: center;
+}
+
+.link .icon{
+width: 30px;
+height: 30px;
+fill: white;
+}
+
+.link a{
+    display: inline-block;
+    width: 40px;
+    line-height: 30px;
+    height: 30px;
+    padding: 4px 0;
+    border-radius: 50%;
+    margin: 16px;
+   }
+
+   .link a:hover{
+    background-color:#cf5d5f ;
+   }
+
