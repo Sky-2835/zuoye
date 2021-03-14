@@ -1,5 +1,6 @@
 body{
   margin: 0px;
+ background-color: #efefef;
 }
 
 .clearfix::after{
@@ -10,6 +11,11 @@ body{
 
 a{
  text-decoration: none;
+}
+
+*{
+ padding: 0px;
+  margin: 0px;
 }
 
 .topnavbar >nav >ul >li{
@@ -55,6 +61,8 @@ a{
 .topnavbar{
     padding-top: 20px;
     padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
 }
 
 .topnavbar >nav{
@@ -65,5 +73,268 @@ a{
 
 .topnavbar nav ul{
     margin: 0px;
+}
+
+.bg{
+   height: 515px;
+   background-position: center center;
+   background-size: cover;
+}
+
+.bg .bgcard{
+    height: 515px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.usercard{
+max-width: 947px; 
+margin-left: auto;
+margin-right: auto;
+background-color:#ffffff;
+border: 1px solid red;
+margin-top:-400px;
+}
+
+.welcome{
+  padding:4px 16px;
+  background-color: #e6686a;
+  color: white;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 10px;
+ 
+
+}
+
+.welcome .son{
+    border: 10px solid transparent;
+    width:0px;
+    height:0px;
+    border-top-color: blue;
+    border-left-color: red;
+    border-top-width: 0px;
+    display: block;
+    position:absolute;
+    top:100%;
+    left:4px
+}
+
+.pictureandtext{
+padding: 50px;
+}
+
+.usercard .text{
+    margin-left: 65px;
+    width: 470px;
+}
+
+dl dt{
+ float: left;
+ width:30%;
+ font-weight: bold;
+ padding: 5px 0px;
+}
+
+ dl dd{
+ float: left;
+ width: 70%;
+ color: #dedede;
+ padding:5px 0px;
+ }
+
+ h1{
+    margin-top: 18px;
+ }
+
+hr{
+ height:0px;
+ border:none;
+ border-top: 1px solid #dedede;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.link{
+background-color:#e6686a;
+text-align: center;
+}
+
+.link .icon{
+width: 30px;
+height: 30px;
+fill: white;
+}
+
+.link a{
+    display: inline-block;
+    width: 40px;
+    line-height: 30px;
+    height: 30px;
+    padding: 4px 0;
+    border-radius: 50%;
+    margin: 16px;
+   }
+
+   .link a:hover{
+    background-color:#cf5d5f ;
+   }
+
+   .hi{
+    text-align: center;
+   }
+
+ .download{
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 16px;
+    padding: 21px 55px;
+    background: #efefef;
+    color: #3d4451;
+    margin: 32px 0;
+    transition: box-shadow 0.5s;
+    border-radius: 2px;
+ }
+  
+ .download:hover{
+    box-shadow: -6px 7px 8px 2px rgba(61,68,81,0.48);
+ }
+   
+ .hi p{
+    font-family: kai;
+    line-height: 1.8;
+    font-size: 18px;
+ }
+
+ .footer{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+
+}
+h2{
+    text-align: center;
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin:0px;
+}
+h3{
+    font-size: 14px;
+    line-height: 1.1;
+    padding-right: 40px;
+    font-weight: normal;
+}
+.footer ol{
+    background: white;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    padding: 42px 50px 10px;
+    margin-top: 30px;
+    list-style: none;
+}
+.footer ol li{
+  display: inline-block;
+  width: 48%;
+  box-sizing:content-box;
+}
+ .bar{  
+    height: 5px;
+    background: #FAE1E1;
+    border-radius: 2px;
+    margin: 4px 0 40px;
+ }
+
+.barson{
+    height: 100%;
+    background: #E6686A;
+    width: 70%;
+    border-radius: 2px;
+}
+
+.footer ol li:nth-child(even){
+    float: right;
+}
+
+.footer ol li:nth-child(odd){
+    float: left;
+}
+
+.zuihounav{
+    margin-top: 32px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.zuihou  li{
+    float: left;
+    list-style: none;
+    margin-left:40px;
+    cursor: pointer;
+}
+
+.zuihou{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+nav .bar{
+    height: 5px;
+    background: white;
+    margin-top: 5px;
+    margin-bottom: 28px;
+    border-radius: 2px;
+}
+
+.zuihoubarson{
+    height: 100%;
+    border-radius: 2px;
+    background-color:#E6686A;
+    transition: all 0.3s;
+   
+}
+
+.bar.state-1 .zuihoubarson{
+  width: 35px;
+  margin-left: 0px;
+}
+.bar.state-2 .zuihoubarson{
+  width: 35px;
+  margin-left: 72px;  
+}
+.bar.state-3 .zuihoubarson{
+    width:92px;
+    margin-left: 144px;
+}
+
+.work{
+ position:relative;
+ max-width: 940px;
+ margin-left: auto;
+ margin-right: auto;
+ height: 597px;
+ margin-bottom: 100px;
+ }
+.big{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+.xiao{
+    position:absolute;
+    top: 0px;
+    left: 645px;
+}
+
+.xiao2{
+    position:absolute;
+    top: 312px;
+    left:645px;
 }
 
